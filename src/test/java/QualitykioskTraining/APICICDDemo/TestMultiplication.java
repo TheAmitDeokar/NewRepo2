@@ -9,7 +9,7 @@ public class TestMultiplication
 {
 
 	CalculatorAPI Cal;
-	int Res;
+	int R;
 	@BeforeClass
 	public void CreateObj()
 	{
@@ -21,7 +21,7 @@ public class TestMultiplication
 	public void InitialiseRes()
 	{
 		System.out.println("I am in Before Method");
-		Res=0;
+		R=0;
 	}
 	
 	@Test(priority=1)
@@ -29,8 +29,8 @@ public class TestMultiplication
 	public void TestdivisionWithPositive()
 	{
 		System.out.println("I am in 1st TestMultiplicationnWithPositive");
-		Res=Cal.Multiplication(100,2);
-		Assert.assertEquals(Res,200,"Multiplication does not work with positive numbers");
+		R=Cal.Multiplication(100,2);
+		Assert.assertEquals(R,200,"Multiplication does not work with positive numbers");
 	
 	}
 }
