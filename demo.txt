@@ -1,3 +1,4 @@
+updating from git bash
 again i am updating
 I am updaing this file
 Demo.txt file is added
